@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comment Board</h1>
+    </header>
+    <section id="comments">
+        <!-- ใส่ความคิดเห็นที่นี่ -->
+    </section>
+    <section id="comment-form">
+        <h2>Leave a Comment</h2>
+        <form id="comment-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
